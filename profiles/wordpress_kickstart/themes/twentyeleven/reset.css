@@ -1,0 +1,200 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  border: 0 none;
+  font-family: inherit;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0 none;
+}
+
+body {
+  background: none repeat scroll 0 0 #e2e2e2;
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body,
+input,
+textarea {
+  color: #373737;
+  font: 300 15px/1.625 "Helvetica Neue", Helvetica,Arial, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none outside none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption,
+th,
+td {
+  font-weight: normal;
+  text-align: left;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+}
+
+blockquote,
+q {
+  quotes: "" "";
+}
+
+a img {
+  border: 0 none;
+}
+
+body {
+  padding: 0 2em;
+}
+
+/* headings */
+h1,
+h2 {
+  color: #000000;
+  font-weight: bold;
+  margin: 0 0 0.8125em;
+}
+
+h3 {
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  line-height: 2.6em;
+  text-transform: uppercase;
+}
+
+/* definitions */
+dl {
+  margin: 0 1.625em;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-bottom: 1.625em;
+}
+
+/* lists */
+ul,
+ol {
+  margin: 0 0 1.625em 2.5em;
+}
+
+ol {
+  list-style-type: decimal;
+}
+
+ul {
+  list-style: square outside none;
+}
+
+/* tables */
+table {
+  border-bottom: 1px solid #dddddd;
+  margin: 0 0 1.625em;
+  width: 100%;
+}
+
+/* pre */
+pre {
+  background: none repeat scroll 0 0 #f4f4f4;
+  font: 13px/1.5 "Courier 10 Pitch",Courier,monospace;
+  margin-bottom: 1.625em;
+  overflow: auto;
+  padding: 0.75em 1.625em;
+}
+
+/* blockquotes */
+blockquote {
+  font-family: Georgia,"Bitstream Charter",serif;
+  font-style: italic;
+  font-weight: normal;
+  margin: 0 3em;
+}
