@@ -1,0 +1,32 @@
+name = Twenty Eleven
+description = Theme based on Twenty Eleven Wordpress template
+core = 7.x
+engine = phptemplate
+
+regions[content] = Content
+regions[sidebar_first] = Sidebar First
+regions[footer_first] = First Footer Block Area
+regions[footer_second] = Second Footer Block Area
+regions[footer_third] = Third Footer Block Area
+regions[footer_last] = Last Footer Block Area
+
+stylesheets[all][] = reset.css
+stylesheets[all][] = style.css
+
+scripts[] = js/twentyeleven.js
+
+
+features[] = name
+features[] = slogan
+features[] = favicon
+features[] = main_menu
+
+
+settings[twentyeleven_header_image] = "<random>"
+
+; Information added by drupal.org packaging script on 2012-11-01
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "twentyeleven"
+datestamp = "1351734725"
+

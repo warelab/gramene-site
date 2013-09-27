@@ -1,0 +1,12 @@
+name = SimpleWiki filter
+description = Allows content to be marked up using the SimpleWiki format
+core = 7.x
+package = "Input filters"
+files[] = simplewiki.module
+
+; Information added by drupal.org packaging script on 2013-05-25
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "simplewiki"
+datestamp = "1369453748"
+
