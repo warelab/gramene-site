@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 
 /* ---------- Overall Specifications ---------- */
 
@@ -54,7 +55,7 @@ samp,
 var {
   padding: 0 0.4em;
   font-size: 0.77em;
-  font-family: Menlo, Consolas, "Andale Mono", "Lucida Console", "Nimbus Mono L", "DejaVu Sans Mono", monospace, "Courier New";
+  font-family: 'Open Sans', sans-serif;
 }
 code {
   background-color: #f2f2f2;
@@ -106,7 +107,8 @@ body,
 #site-slogan,
 .ui-widget,
 .comment-form label {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
 }
 #header,
 #footer-wrapper,
@@ -121,13 +123,13 @@ div.meta,
 p.comment-time,
 table,
 .breadcrumb {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 input,
 textarea,
 select,
 a.button {
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* ------------------ Reset Styles ------------------ */
@@ -364,6 +366,7 @@ h1#site-name {
   padding: 0;
   width: 208px;
 }
+
 .region-header .block-menu li a {
   display: block;
   border-bottom: 1px solid;
@@ -458,6 +461,8 @@ h1#site-name {
 
 #main-menu {
   clear: both;
+  background: #9abe6c;
+  border-bottom: 10px solid #547b74;
 }
 #main-menu-links {
   font-size: 0.929em;
@@ -471,40 +476,47 @@ h1#site-name {
   margin: 0 1px;
 }
 #main-menu-links a {
-  color: #333;
-  background: #ccc;
-  background: rgba(255, 255, 255, 0.7);
+//  color: #333;
+  color: #ffffff;
   float: left; /* LTR */
   height: 2.4em;
   line-height: 2.4em;
   padding: 0 0.8em;
   text-decoration: none;
-  text-shadow: 0 1px #eee;
-  -khtml-border-radius-topleft: 8px;
-  -khtml-border-radius-topright: 8px;
-  -moz-border-radius-topleft: 8px;
-  -moz-border-radius-topright: 8px;
-  -webkit-border-top-left-radius: 8px;
-  -webkit-border-top-right-radius: 8px;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  text-shadow: 0 1px #000;
+/*
+* background: #ccc;
+* background: rgba(255, 255, 255, 0.7);
+* -khtml-border-radius-topleft: 8px;
+* -khtml-border-radius-topright: 8px;
+* -moz-border-radius-topleft: 8px;
+* -moz-border-radius-topright: 8px;
+* -webkit-border-top-left-radius: 8px;
+* -webkit-border-top-right-radius: 8px;
+* border-top-left-radius: 8px;
+* border-top-right-radius: 8px;
+*/
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
-  background: #f6f6f2;
-  background: rgba(255, 255, 255, 0.95);
+//  background: #f6f6f2;
+//  background: rgba(255, 255, 255, 0.95);
+//  background: #fff2a7;
 }
 #main-menu-links a:active {
-  background: #b3b3b3;
-  background: rgba(255, 255, 255, 1);
+//  background: #b3b3b3;
+//  background: rgba(255, 255, 255, 1);
+//  background: #fff2a7;
 }
 #main-menu-links li a.active {
   border-bottom: none;
+  background: #547b74;
 }
 .featured #main-menu-links li a:active,
 .featured #main-menu-links li a.active {
-  background: #f0f0f0;
-  background: rgba(240, 240, 240, 1.0);
+//  background: #f0f0f0;
+//  background: rgba(240, 240, 240, 1.0);
+  background: #547b74;
 }
 
 /* --------------- Secondary Menu ------------ */
@@ -747,25 +759,30 @@ ul.links {
 }
 
 /* ------------------ Sidebar ----------------- */
-.sidebar .section {
-  padding-top: 10px;
-}
+//.sidebar .section {
+//  padding-top: 10px;
+//}
 .sidebar .block {
-  border: 1px solid;
-  padding: 15px 20px;
+//  border: 1px solid;
+//  padding: 15px 20px;
+  background-color: #f5f9f1;
   margin: 0 0 20px;
 }
 .sidebar h2 {
   margin: 0 0 0.5em;
-  border-bottom: 1px solid #d6d6d6;
+//  border-bottom: 1px solid #d6d6d6;
+  padding: 10px;
   padding-bottom: 5px;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 #000;
   font-size: 1.071em;
   line-height: 1.2;
+  color: #ffffff;
+  background-color: #547b74;
 }
 .sidebar .block .content {
   font-size: 0.914em;
   line-height: 1.4;
+  padding: 10px;
 }
 .sidebar tbody {
   border: none;
@@ -787,7 +804,7 @@ ul.links {
   color: #000;
   font-size: 1.714em;
   margin-bottom: 0.8em;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 #000;
   text-align: center;
   line-height: 1;
 }
@@ -838,6 +855,8 @@ ul.links {
   color: #c0c0c0;
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.857em;
+  border-top: 10px solid #9abe6c;
+  background-color: #547b74;
 }
 #footer-wrapper a {
   color: #fcfcfc;
@@ -952,7 +971,7 @@ ul.links {
 /* --------------- System Tabs  --------------- */
 
 .tabs {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 20px;
 }
 .tabs ul.primary {
@@ -981,7 +1000,7 @@ ul.links {
   float: left; /* not LTR */
   padding: 0 10px 3px;
   margin: 0;
-  text-shadow: 0 1px 0 #fff;
+  text-shadow: 0 1px 0 #000;
   -khtml-border-radius-topleft: 6px;
   -moz-border-radius-topleft: 6px;
   -webkit-border-top-left-radius: 6px;
@@ -1175,7 +1194,7 @@ fieldset legend {
   display: block;
   height: 2em;
   left: -1px; /* LTR */
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 2;
   padding: 0;
   position: absolute;
@@ -1647,4 +1666,9 @@ div.admin-panel .description {
 }
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
+}
+
+.node-readmore,
+.more-link {
+  font-style: italic;
 }

@@ -20,7 +20,8 @@ div.toc-filter-content {
   margin: 1em 0;
   border: 1px solid #ccc;
   padding: 1em;
-  background-color: #eee;
+//  background-color: #eee;
+  background-color: #f5f9f1;
 }
 
 div.toc-filter .item-list > h3 {
