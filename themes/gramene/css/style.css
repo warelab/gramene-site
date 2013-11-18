@@ -1692,3 +1692,6 @@ div.admin-panel .description {
   color: white;
   background: #547a73;
 }
+#main-menu-links li a.active {
+    background: none;
+}

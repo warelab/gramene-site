@@ -14,7 +14,7 @@
  * - $base_path: The base URL path of the Drupal installation. At the very
  *   least, this will always default to /.
  * - $directory: The directory the template is located in, e.g. modules/system
- *   or themes/bartik.
+ *   or themes/gramene.
  * - $is_front: TRUE if the current page is the front page.
  * - $logged_in: TRUE if the user is registered and signed in.
  * - $is_admin: TRUE if the user has permission to access administration pages.
@@ -81,7 +81,7 @@
  * @see template_preprocess()
  * @see template_preprocess_page()
  * @see template_process()
- * @see bartik_process_page()
+ * @see gramene_process_page()
  * @see html.tpl.php
  */
 ?>
