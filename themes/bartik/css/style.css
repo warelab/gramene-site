@@ -11,6 +11,9 @@ body {
   border: 0;
   outline: 0;
 }
+a:link {
+  color: #000;
+}
 a:link,
 a:visited {
   text-decoration: none;
