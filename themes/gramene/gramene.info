@@ -1,6 +1,6 @@
 
-name = Bartik
-description = A flexible, recolorable theme with many regions.
+name = Gramene
+description = The theme for Gramene.org, based on Bartik
 package = Core
 version = VERSION
 core = 7.x
