@@ -9,13 +9,15 @@ body.overlay {
   border-color: #ffffff;
 }
 #page,
-#main-wrapper,
-#main-menu-links li a.active,
-#main-menu-links li.active-trail a {
+#main-wrapper {
   background: #ffffff;
 }
+#main-menu-links li a.active,
+#main-menu-links li.active-trail a {
+    background: #547b74;
+}
 .tabs ul.primary li a.active {
-  background-color: #ffffff;
+  background-color: #;
 }
 .tabs ul.primary li.active a {
   background-color: #ffffff;

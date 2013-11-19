@@ -11,8 +11,9 @@ body {
   border: 0;
   outline: 0;
 }
-a:link {
-  color: #000;
+a:link,
+a:visited {
+  color: #444;
 }
 a:link,
 a:visited {
@@ -479,14 +480,12 @@ h1#site-name {
   margin: 0 1px;
 }
 #main-menu-links a {
-//  color: #333;
   color: #ffffff;
   float: left; /* LTR */
   height: 2.4em;
   line-height: 2.4em;
   padding: 0 0.8em;
   text-decoration: none;
-  text-shadow: 0 1px #000;
 /*
 * background: #ccc;
 * background: rgba(255, 255, 255, 0.7);
@@ -502,14 +501,8 @@ h1#site-name {
 }
 #main-menu-links a:hover,
 #main-menu-links a:focus {
-//  background: #f6f6f2;
-//  background: rgba(255, 255, 255, 0.95);
-//  background: #fff2a7;
 }
 #main-menu-links a:active {
-//  background: #b3b3b3;
-//  background: rgba(255, 255, 255, 1);
-//  background: #fff2a7;
 }
 #main-menu-links li a.active {
   border-bottom: none;
@@ -553,7 +546,6 @@ h1#site-name {
   background: #f0f0f0;
   background: rgba(30, 50, 10, 0.08);
   border-bottom: 1px solid #e7e7e7;
-  text-shadow: 1px 1px #fff;
 }
 #featured h2 {
   font-size: 1.174em;
@@ -762,21 +754,14 @@ ul.links {
 }
 
 /* ------------------ Sidebar ----------------- */
-//.sidebar .section {
-//  padding-top: 10px;
-//}
 .sidebar .block {
-//  border: 1px solid;
-//  padding: 15px 20px;
   background-color: #f5f9f1;
   margin: 0 0 20px;
 }
 .sidebar h2 {
   margin: 0 0 0.5em;
-//  border-bottom: 1px solid #d6d6d6;
   padding: 10px;
   padding-bottom: 5px;
-  text-shadow: 0 1px 0 #000;
   font-size: 1.071em;
   line-height: 1.2;
   color: #ffffff;
@@ -807,7 +792,6 @@ ul.links {
   color: #000;
   font-size: 1.714em;
   margin-bottom: 0.8em;
-  text-shadow: 0 1px 0 #000;
   text-align: center;
   line-height: 1;
 }
@@ -1003,7 +987,6 @@ ul.links {
   float: left; /* not LTR */
   padding: 0 10px 3px;
   margin: 0;
-  text-shadow: 0 1px 0 #000;
   -khtml-border-radius-topleft: 6px;
   -moz-border-radius-topleft: 6px;
   -webkit-border-top-left-radius: 6px;
@@ -1202,7 +1185,6 @@ fieldset legend {
   padding: 0;
   position: absolute;
   text-indent: 10px;
-  text-shadow: 0 1px 0 #fff;
   top: -12px;
   width: 100%;
   -khtml-border-radius-topleft: 4px;
@@ -1692,6 +1674,13 @@ div.admin-panel .description {
   color: white;
   background: #547a73;
 }
-#main-menu-links li a.active {
-    background: none;
+
+.marker,
+.form-required {
+  color: #ea8e75;
+}
+.form-item input.error,
+.form-item textarea.error,
+.form-item select.error {
+  border: 2px solid #ea8e75;
 }
