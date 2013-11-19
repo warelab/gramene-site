@@ -215,15 +215,15 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'drupal',
-      'username' => 'drupal',
-      'password' => 'dr3wp@ll',
-      'host' => 'cabot',
+      'database' => 'gramenesite',
+      'username' => 'root',
+      'password' => 'root',
+      'host' => '127.0.0.1',
       'port' => '3306',
       'driver' => 'mysql',
       'prefix' => '',
     ),
-  ),
+  ), 
 );
 
 /**
