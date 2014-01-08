@@ -190,8 +190,8 @@ table table {
   font-size: 1em;
 }
 table tr th {
-  background: #757575;
-  background: rgba(0, 0, 0, 0.51);
+  #background: #757575;
+  #background: rgba(0, 0, 0, 0.51);
   border-bottom-style: none;
 }
 table tr th,
