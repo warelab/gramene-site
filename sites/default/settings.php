@@ -215,10 +215,10 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'drupal',
+      'database' => 'gramene_drupal',
       'username' => 'drupal',
       'password' => 'dr3wp@ll',
-      'host' => 'cabot',
+      'host' => 'colden',
       'port' => '3306',
       'driver' => 'mysql',
       'prefix' => '',
